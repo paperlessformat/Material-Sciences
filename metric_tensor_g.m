@@ -1,6 +1,6 @@
 %%can be editted to desired lengths
-a=3;
-b=4;
+a=2;
+b=2;
 c=6;
 
 %%can be editted to desired angles
@@ -10,11 +10,11 @@ gamma=90;
 
 g=[a^2, a*b*cosd(gamma), a*c*cosd(beta);
     a*b*cosd(gamma), b^2, b*c*cosd(alpha);
-    a*c*cosd(beta), b*c*cosd(alpha), c^2]
+    a*c*cosd(beta), b*c*cosd(alpha), c^2]; %This is the matrix for metric tensor
 
 %%get p and q
-p=[1 1 1]
-q=[0 0 0]
+p=[1 1 1];
+q=[0 0 0];
 
 %%distance from any two points
-D=sqrt((q-p)*g*(q-p)')
+D=sqrt((q-p)*g*(q-p)');

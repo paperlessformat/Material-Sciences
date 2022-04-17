@@ -15,3 +15,5 @@ R = [2/3, -1/3, -1/3;
     1/3, 1/3, -2/3;
     1/3, 1/3, 1/3]
 inv_R = inv(R) %for Primi. to Conv.
+
+%Base-Center is different for each lattice system. Might add more info later.
